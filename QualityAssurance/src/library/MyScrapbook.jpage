@@ -1,0 +1,13 @@
+ArrayList<Book> myBooks = new ArrayList<Book>();
+ArrayList<Person> myPeople = new ArrayList<Person>();
+Book b1 = new Book("Children of Hurin", "J.R.R. Tolkien");
+Book b2 = new Book("The Silmarillion", "Christopher Tolkien");
+Book b3 = new Book("The Hobbit", "J.R.R. Tolkien");
+Person p1 = new Person();
+p1.setName("John");
+b1.setPerson(p1);
+myBooks.add(b1);
+myBooks.add(b2);
+myBooks.add(b3);
+myBooks.remove(b2);
+myBooks.get(0).getPerson().getName()
