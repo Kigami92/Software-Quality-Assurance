@@ -5,7 +5,7 @@ import junit.framework.TestSuite;
 
 public class AllTests {
 
-	public static Test suite() {
+	public static Test suite() { //add MyLibraryTest
 		TestSuite suite = new TestSuite(AllTests.class.getName());
 		//$JUnit-BEGIN$
 		suite.addTestSuite(BookTest.class);
